@@ -1,0 +1,21 @@
+.main {
+	width: 70%;
+	max-width: 700px;
+
+	margin-top: 2em;
+	&__tagscontainer {
+		display: inline-flex;
+		gap: 0.5em;
+		align-content: space-between;
+		border: 1px solid var(--clr-tag);
+		padding: 0.5em;
+		border-radius: 5px;
+		flex-wrap: wrap;
+		overflow-x: auto;
+	}
+	.wrapper {
+		padding: 1em;
+		display: flex;
+		flex-direction: column;
+	}
+}
